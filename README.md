@@ -1,2 +1,2 @@
-# lyrics-emotion-detection
-A single-label and multi-label classifiers to detect emotions in lyrics
+# Lyrics Emotion Detection
+The main goal of this project is to explore emotion detection in music using lyrics. Firstly, 1,160 song lyrics are hand-annotated using 9 categories of the Geneva Emotional Music Scales (GEMS) (Zentner et al., 2008) emotions. Using the generated dataset, we developed single-label and multi-label classifiers using unigram, bigram, term frequency-inverse document frequency (tfidf) BOW features to detect emotions in lyrics, which achieved 0.65 and 0.82 F1 scores respectively.
